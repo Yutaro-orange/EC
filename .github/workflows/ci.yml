@@ -18,6 +18,7 @@ jobs:
 
       - name: "Install CI dependencies"
         run: |
+          ls /home/runner/work/_temp/dc9f8188-a875-4594-bb80-cadd7e69a41f.sh
           ./run ci:install-deps
 
       - name: "Test"
